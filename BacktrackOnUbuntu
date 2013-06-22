@@ -1,0 +1,213 @@
+#!/bin/bash
+#########################################################################
+# Installation Backtrack T00ls 0n Ubuntu                                #
+# Created by :                                                          #
+#| ___|| || | | |    _ __ ___ | || |  _ __   __| |(_)/ _ \___ /| |   (_)#
+#|___ \| || |_| |   | '_ ` _ \| || |_| '_ \ / _` || | | | ||_ \| |   | |#
+# ___) |__   _| |___| | | | | |__   _| | | | (_| || | |_| |__) | |___| |#
+#|____/   |_| |_____|_| |_| |_|  |_| |_| |_|\__,_|/ |\___/____/|_____|_|#
+#                                               |__/                    #   
+#########################################################################
+
+sudo echo "deb http://all.repository.backtrack-linux.org revolution main microverse non-free testing
+deb http://32.repository.backtrack-linux.org revolution main microverse non-free testing
+deb http://source.repository.backtrack-linux.org revolution main microverse non-free testing" >> /etc/apt/sources.list &&
+echo "Update your systems"
+sudo apt-get update
+echo "The systems is update"
+echo ""
+echo "Installing macchanger"
+sudo apt-get install macchanger
+echo ""
+echo "Installing 0trace"
+sudo apt-get install 0trace
+echo ""
+echo "Installing air-crack"
+sudo apt-get install aircrack-ng
+echo ""
+echo "Installing driftnet"
+sudo apt-get install driftnet
+echo ""
+echo "Installing SET <Social Engineering Toolkit>"
+sudo apt-get install set
+echo ""
+echo "Installing dsniff"
+sudo apt-get install dsniff
+echo ""
+echo "Installing Fern wifi cracker"
+sudo apt-get install fern-wifi-cracker
+echo ""
+echo "Installing dirbuster"
+sudo apt-get install dirbuster
+echo ""
+echo "Installing nikto"
+sudo apt-get install nikto
+echo ""
+echo "Installing sslstrip"
+sudo apt-get install sslstrip
+echo ""
+echo "Installing wifi_honey"
+sudo apt-get install wifihoney
+echo ""
+echo "Installing kismet"
+sudo apt-get install kismet
+echo ""
+echo "Installing autoscan"
+sudo apt-get install autoscan
+echo ""
+echo "Installing netdiscover"
+sudo apt-get install netdiscover
+echo ""
+echo "Installing fierce"
+sudo apt-get install fierce
+echo ""
+echo "Installing nmap"
+sudo apt-get install nmap
+echo ""
+echo "Installing dmitry"
+sudo apt-get install dmitry
+echo ""
+echo "Installing nessus"
+sudo apt-get install nessus
+echo ""
+echo "Installing gpsd"
+sudo apt-get install gpsd
+echo ""
+echo "Installing gpshell"
+sudo apt-get install gpshell
+echo ""
+echo "Installing socat"
+sudo apt-get install socat
+echo ""
+echo "Installing sqlite3"
+sudo apt-get install sqlite3
+echo ""
+echo "Installing wifitap"
+sudo apt-get install wifitap
+echo ""
+echo "Installing gooscan"
+sudo apt-get install gooscan
+echo ""
+echo "Installing cowpatty"
+sudo apt-get install cowpatty
+echo ""
+echo "Installing ettercap"
+sudo apt-get install ettercap
+echo ""
+echo "Installing nbtscan"
+sudo apt-get install nbtscan
+echo ""
+echo "Installing killerbee"
+sudo apt-get install killerbee
+echo ""
+echo "Installing lanmap2"
+sudo apt-get install lanmap2
+echo ""
+echo "Installing medusa"
+sudo apt-get install medusa
+echo ""
+echo "Installing hydra"
+sudo apt-get install hydra
+echo ""
+echo "Installing bed"
+sudo apt-get install bed
+echo ""
+echo "Installing the harvester"
+sudo apt-get install theharvester
+echo ""
+echo "Installing sqlmap"
+sudo apt-get install sqlmap
+echo ""
+echo "Installing iodine"
+sudo apt-get install iodine
+echo ""
+echo "Installing burpsuite"
+sudo apt-get install burpsuite
+echo ""
+echo "Installing iaxfl00d"
+sudo apt-get install iaxflood
+echo ""
+echo "Installing autopsy"
+sudo apt-get install autopsy
+echo ""
+echo "Installing onesixtyone"
+sudo apt-get install onesixtyone
+echo ""
+echo "Installing openssl"
+sudo apt-get install openssl
+echo ""
+echo "Installing p0f"
+sudo apt-get install p0f
+echo ""
+echo "Installing w3af"
+sudo apt-get install w3af
+echo ""
+echo "Installing wepcrack"
+sudo apt-get install wepcrack
+echo ""
+echo "Installing libhijack"
+sudo apt-get install libhijack
+echo ""
+echo "Installing John"
+sudo apt-get install john
+echo ""
+echo "Installing ncrack"
+sudo apt-get install ncrack
+echo ""
+echo "Installing fcrackzip"
+sudo apt-get install fcrackzip
+echo ""
+echo "Installing backtrack dragon"
+sudo apt-get install backtrack-dragon
+echo ""
+echo "Installing rebind"
+sudo apt-get install rebind
+echo ""
+echo "Installing termineter"
+sudo apt-get install termineter
+echo ""
+echo "Installing bbqsql"
+sudo apt-get install bbqsql
+echo ""
+echo "Installing ipcalc"
+sudo apt-get install ipcalc
+echo ""
+echo "Installing u3-pwn"
+sudo apt-get install u3-pwn
+echo ""
+echo "Installing backtrack bash profile"
+sudo apt-get install backtrack-bash-profile
+echo ""
+echo "Installing wireshark"
+sudo apt-get install wireshark
+echo ""
+echo "Installing proxychains"
+sudo apt-get install proxychains
+echo ""
+echo "Installing jboss-autopwn"
+sudo apt-get install jboss-autopwn
+echo ""
+echo "Installing firestarter <firewall for ubuntu>"
+sudo apt-get install firestarter
+echo ""
+echo "Installing figlet"
+sudo apt-get install figlet
+echo ""
+echo "Installing cowsay"
+sudo apt-get install cowsay
+echo ""
+echo "Installing UDP Fl00der"
+sudo apt-get install udp.pl
+echo ""
+echo "Installing literki <Hacker Keyboard>"
+sudo apt-get install literki
+echo ""
+echo "Installing metasploit"
+sudo apt-get install metasploit
+echo ""
+echo "Installing noip2"
+sudo apt-get install noip2
+echo "Installation is complete"
+echo "Now, you can used backtrack t00ls on ubuntu"
+figlet 54Lm4ndj03li && cowsay G00D Luck for You
+exit
