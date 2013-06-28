@@ -9,6 +9,8 @@
 #                                               |__/                    #   
 #########################################################################
 
+f_installer(){
+  clear
 sudo echo "deb http://all.repository.backtrack-linux.org revolution main microverse non-free testing
 deb http://32.repository.backtrack-linux.org revolution main microverse non-free testing
 deb http://source.repository.backtrack-linux.org revolution main microverse non-free testing" >> /etc/apt/sources.list &&
@@ -211,3 +213,10 @@ echo "Installation is complete"
 echo "Now, you can used backtrack t00ls on ubuntu"
 figlet 54Lm4ndj03li && cowsay G00D Luck for You
 exit
+}
+if [ "$(id -u)" != "0" ]; then
+	echo -e "\e[1;31m[!] This script must be run as root\e[0m" 1>&2
+	exit 1
+else
+	f_installer
+fi
